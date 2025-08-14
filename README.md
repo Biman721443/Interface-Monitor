@@ -18,6 +18,18 @@ A web-based dashboard to monitor HR integration interfaces between SAP SuccessFa
 - **Tables**: TanStack Table
 - **Icons**: Lucide React
 - **Build Tool**: Vite
-
+  
+## Project Structure
+src/
+├── components/
+│   ├── Dashboard.jsx       # Main dashboard layout
+│   ├── LogsTable.jsx      # Interface logs table
+│   ├── SummaryCards.jsx   # Metrics summary cards
+│   └── TimeFilter.jsx     # Time range selector
+├── utils/
+│   ├── api.js             # Mock API client
+│   └── mockData.js        # Mock data generator
+├── App.jsx                # Root component
+└── main.jsx               # Application entry point
 
 
